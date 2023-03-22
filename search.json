@@ -1,0 +1,37 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "nbdev-tutorial",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "nbdev-tutorial",
+    "section": "Install",
+    "text": "Install\npip install nbdev_tutorial"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "nbdev-tutorial",
+    "section": "How to use",
+    "text": "How to use\nIn this tutorial we just implemented two functions\n\nsay_hello(\"Siegfried\")\n\n'Hello Siegfried!'\n\n\n\nsay_hello_basque(\"John\")\n\n'Kaixo John!'"
+  },
+  {
+    "objectID": "index.html#thats-it",
+    "href": "index.html#thats-it",
+    "title": "nbdev-tutorial",
+    "section": "That’s it!",
+    "text": "That’s it!\nRemember to run nbdev_prepare"
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "00 - Intro to nbdev and Gradio",
+    "section": "",
+    "text": "source\n\nsay_hello\n\n say_hello (to)\n\nSay hello to somebody\n\nsource\n\n\nsay_hello_basque\n\n say_hello_basque (to)\n\nSay hello to somebody, in Basque\nLet’s add some tests to our functions:\n\ntest_eq(say_hello(\"Fasteno\"), \"Hello Fasteno!\")\ntest_eq(say_hello_basque(\"Asier\"), \"Kaixo Asier!\")\n\nLet’s also try adding some graphics to our notebook\n\ndisplay(SVG('<svg height=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"200\" cy=\"80\" r=\"60\"/></svg>'))\n\n\n\n\nThat’s it!"
+  }
+]
