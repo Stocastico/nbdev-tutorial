@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "nbdev-tutorial"
+  site-url: "https://Stocastico.github.io/nbdev-tutorial"
+  description: "First steps using nbdev as a tool for literate programming"
+  repo-branch: main
+  repo-url: "https://github.com/Stocastico/nbdev-tutorial"
