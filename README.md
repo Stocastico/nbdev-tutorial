@@ -14,10 +14,16 @@ pip install nbdev_tutorial
 
 ## How to use
 
-Fill me in please! Don’t forget code examples:
+In this tutorial we just implemented two functions
 
 ``` python
-1+1
+say_hello("Siegfried")
 ```
 
-    2
+    'Hello Siegfried!'
+
+``` python
+say_hello_basque("John")
+```
+
+    'Kaixo John!'

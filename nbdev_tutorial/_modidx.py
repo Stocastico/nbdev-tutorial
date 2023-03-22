@@ -5,4 +5,11 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://Stocastico.github.io',
                 'git_url': 'https://github.com/Stocastico/nbdev-tutorial',
                 'lib_path': 'nbdev_tutorial'},
-  'syms': {'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('core.html#foo', 'nbdev_tutorial/core.py')}}}
+  'syms': { 'nbdev_tutorial.core': {'nbdev_tutorial.core.foo': ('intro.html#foo', 'nbdev_tutorial/core.py')},
+            'nbdev_tutorial.nbdev_tutorial': { 'nbdev_tutorial.nbdev_tutorial.say_hello': ( 'intro.html#say_hello',
+                                                                                            'nbdev_tutorial/nbdev_tutorial.py'),
+                                               'nbdev_tutorial.nbdev_tutorial.say_hello_basque': ( 'intro.html#say_hello_basque',
+                                                                                                   'nbdev_tutorial/nbdev_tutorial.py')},
+            'nbdev_tutorial.tutorial': { 'nbdev_tutorial.tutorial.say_hello': ('intro.html#say_hello', 'nbdev_tutorial/tutorial.py'),
+                                         'nbdev_tutorial.tutorial.say_hello_basque': ( 'intro.html#say_hello_basque',
+                                                                                       'nbdev_tutorial/tutorial.py')}}}
